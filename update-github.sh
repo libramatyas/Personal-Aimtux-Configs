@@ -8,6 +8,6 @@ echo $newver > version.info
 echo "last known version set to $newver"
 echo "running git..."
 git add --all
-git commit -m "$version"
+git commit -m "v$version"
 git push
 echo "update done."
