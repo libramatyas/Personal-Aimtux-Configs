@@ -106,7 +106,7 @@
             "type" : 0
          }
       },
-      "dFlipKey" : "",
+      "dFlipKey" : "v",
       "enabled" : true
    },
    "AutoAccept" : {
@@ -922,7 +922,7 @@
          "rainbowSpeed" : 0.5
       },
       "showDormant" : true,
-      "showimpacts" : false,
+      "showimpacts" : true,
       "smoke_color" : {
          "a" : 1.0,
          "b" : 0.38039219379425049,
@@ -1118,7 +1118,7 @@
                "Enabled" : false
             },
             "AutoScope" : {
-               "Enabled" : false
+               "Enabled" : true
             },
             "AutoShoot" : {
                "Enabled" : false

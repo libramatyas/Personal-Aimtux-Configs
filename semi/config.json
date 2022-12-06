@@ -459,14 +459,14 @@
       "Enabled" : true,
       "Enemy" : {
          "Boxes" : {
-            "Enabled" : false,
+            "Enabled" : true,
             "type" : 1
          },
          "BulletTracers" : {
             "Enabled" : false
          },
          "HealthBar" : {
-            "Enabled" : true,
+            "Enabled" : false,
             "color_type" : 1,
             "type" : 0
          },
@@ -1492,6 +1492,49 @@
                "Enabled" : false
             },
             "Silent" : true
+         },
+         "weapon_awp" : {
+            "AutoPistol" : {
+               "Enabled" : true
+            },
+            "AutoScope" : {
+               "Enabled" : true
+            },
+            "AutoShoot" : {
+               "Enabled" : true
+            },
+            "AutoSlow" : {
+               "Enabled" : false
+            },
+            "Body" : {
+               "Value" : 0.78700000047683716
+            },
+            "ClosestBone" : false,
+            "DamagePrediction" : {
+               "Type" : 1
+            },
+            "DesireBones" : {
+               "Bones" : [ false, true, true, true, false, false ]
+            },
+            "DesireMultiBones" : {
+               "Bones" : [ false, false, false, false, false, false ]
+            },
+            "EnemySelectionType" : {
+               "Type" : 1
+            },
+            "Friendly" : false,
+            "Head" : {
+               "Value" : 0.54400002956390381
+            },
+            "HitChance" : {
+               "Enabled" : true,
+               "Value" : 76.0
+            },
+            "MinDamage" : 59.0,
+            "ScopeControl" : {
+               "Enabled" : false
+            },
+            "Silent" : true
          }
       }
    },
@@ -1501,12 +1544,12 @@
    },
    "Resolver" : {
       "EyeAngles" : 0.0,
-      "Type" : 0,
+      "Type" : 2,
       "goalFeetYaw" : 0.0,
       "manual" : false,
       "rPitch" : false,
       "resolve_all" : false,
-      "resolve_allAP" : false
+      "resolve_allAP" : true
    },
    "ScreenshotCleaner" : {
       "Enabled" : false
@@ -1984,7 +2027,7 @@
    "ThirdPerson" : {
       "Enabled" : true,
       "distance" : 100.0,
-      "toggled" : false,
+      "toggled" : true,
       "togglekey" : "h"
    },
    "TracerEffects" : {

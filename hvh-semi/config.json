@@ -116,7 +116,7 @@
       "Enabled" : true,
       "armor" : true,
       "defuser" : true,
-      "main" : 3,
+      "main" : 1,
       "nades" : true,
       "secondary" : 1,
       "taser" : true
@@ -498,7 +498,7 @@
          }
       },
       "FOVCrosshair" : {
-         "Enabled" : true,
+         "Enabled" : false,
          "color" : {
             "a" : 1.0,
             "b" : 0.0,
@@ -1016,13 +1016,13 @@
       "viewmodel_value" : 90.0
    },
    "FakeDuck" : {
-      "enabled" : false,
-      "key" : ""
+      "enabled" : true,
+      "key" : "z"
    },
    "FakeLag" : {
       "adaptive" : false,
       "enabled" : true,
-      "value" : 15
+      "value" : 6
    },
    "GrenadeHelper" : {
       "Enabled" : false,
@@ -1438,7 +1438,7 @@
          "key" : "3"
       },
       "quickpeek" : {
-         "Enabled" : false,
+         "Enabled" : true,
          "color" : {
             "a" : 0.7450980544090271,
             "b" : 1.0,
@@ -1447,7 +1447,7 @@
             "rainbow" : false,
             "rainbowSpeed" : 0.5
          },
-         "key" : ""
+         "key" : "c"
       },
       "weapons" : {
          "DEFAULT" : {
@@ -1958,7 +1958,7 @@
    },
    "Spammer" : {
       "KillSpammer" : {
-         "Enabled" : true,
+         "Enabled" : false,
          "messages" : [
             "Get fucked! [Czechian's Autofucker]",
             "bad [Czechian's Autofucker]",
